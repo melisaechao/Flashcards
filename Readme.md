@@ -10,8 +10,7 @@ Simple flashcard app
 ### App Walk-though
 `TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
-
+<img src="https://imgur.com/a/SxQ37F0" width=200><br>
 
 ## Required
 - [x] Create New Project in Xcode
@@ -21,5 +20,5 @@ Simple flashcard app
 - [x] Push code to GitHub
 ## Optional
 - [ ] Toggle the flashcard between the question side and the answer side
-- [ ] Style the question and answer side of the card to better distinguish between the two sides
-- [ ] Add selectable multiple choice answers beneath the card
+- [x] Style the question and answer side of the card to better distinguish   between the two sides
+- [x] Add selectable multiple choice answers beneath the card
