@@ -16,6 +16,7 @@
 		12019C2D28C8537400170F28 /* FlashcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12019C2C28C8537400170F28 /* FlashcardsTests.swift */; };
 		12019C3728C8537400170F28 /* FlashcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12019C3628C8537400170F28 /* FlashcardsUITests.swift */; };
 		12019C3928C8537400170F28 /* FlashcardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12019C3828C8537400170F28 /* FlashcardsUITestsLaunchTests.swift */; };
+		12F4708D28E3E30A0058EF2D /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F4708C28E3E30A0058EF2D /* CreationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		12019C3228C8537400170F28 /* FlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12019C3628C8537400170F28 /* FlashcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITests.swift; sourceTree = "<group>"; };
 		12019C3828C8537400170F28 /* FlashcardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12F4708C28E3E30A0058EF2D /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		12019C0928C8537100170F28 = {
 			isa = PBXGroup;
 			children = (
+				12F4708C28E3E30A0058EF2D /* CreationViewController.swift */,
 				12019C1428C8537200170F28 /* Flashcards */,
 				12019C2B28C8537400170F28 /* FlashcardsTests */,
 				12019C3528C8537400170F28 /* FlashcardsUITests */,
@@ -261,6 +264,7 @@
 				12019C1A28C8537200170F28 /* ViewController.swift in Sources */,
 				12019C1628C8537200170F28 /* AppDelegate.swift in Sources */,
 				12019C1828C8537200170F28 /* SceneDelegate.swift in Sources */,
+				12F4708D28E3E30A0058EF2D /* CreationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
