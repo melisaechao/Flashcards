@@ -11,8 +11,6 @@ Flashcard app v.2
 
 <img src="https://raw.githubusercontent.com/melisaechao/Flashcards/b561a0d2058e3f370e5e8f6926ce4c9f2cadcddd/week4Lab.gif" width=200><br>
 
-`TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
-
 ## Required
 - [x] User can open the creation screen
 - [x] User can cancel out of the creation screen
