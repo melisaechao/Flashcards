@@ -67,7 +67,7 @@ class ViewController: UIViewController {
         
     }
     
-        // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view.
     
     
     @IBAction func didTapOnButtonOne(_ sender: Any) {
@@ -83,23 +83,46 @@ class ViewController: UIViewController {
     }
     
     @IBAction func didTapOnFlashcard(_ sender: Any) {
-        if frontLabel.isHidden == false {
-            frontLabel.isHidden = true
-        } else {
-            frontLabel.isHidden = false
-        }
+       flipFlashcard()
     }
     
+    func flipFlashcard() {
+        UIView.transition(with: card, duration: 0.3, options: .transitionFlipFromTop, animations: {
+            if self.frontLabel.isHidden == false {
+                self.frontLabel.isHidden = true
+            } else {
+                self.frontLabel.isHidden = false
+            }
+        })
+    }
+    
+    func animateCardOut() {
+        UIView.animate(withDuration: 0.3, animations: {
+            self.card.transform = CGAffineTransform.identity.translatedBy(x: -300.0, y: 0.0)
+        }, completion: { finished in
+            self.updateLabels()
+            self.animateCardIn()
+            
+        })
+    }
+    
+    func animateCardIn() {
+        card.transform = CGAffineTransform.identity.translatedBy(x: 300.0, y: 0.0)
+        UIView.animate(withDuration: 0.3) {
+            self.card.transform = CGAffineTransform.identity
+        }
+    }
+
     @IBAction func didTapOnPrev(_ sender: Any) {
         currentIndex = currentIndex - 1
-            updateLabels()
-            updateNextPrevButtons()
+        updateLabels()
+        updateNextPrevButtons()
+        animateCardIn()
     }
     
     @IBAction func didTapOnNext(_ sender: Any) { currentIndex = currentIndex + 1
-        updateLabels()
         updateNextPrevButtons()
-        
+        animateCardOut()
     }
     
     func updateLabels() {
