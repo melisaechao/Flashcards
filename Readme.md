@@ -8,7 +8,7 @@
 
 ### App Walk-though
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://raw.githubusercontent.com/melisaechao/Flashcards/19d33124f89f3bb14d3f4a57fe8092d29ccf3d2b/Lab%204.gif" width=200><br>
 
 
 ## Required
